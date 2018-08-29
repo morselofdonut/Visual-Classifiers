@@ -30,7 +30,6 @@ plt.title("Average Distance Classifier")
 
 
 colors_val=[]
-merged=stack((x, y), axis=-1)
 for a,b in merged:
 	if b>polyval(p15,a):
 		colors_val.append('#ffb07c')
